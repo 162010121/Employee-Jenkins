@@ -1,0 +1,17 @@
+server:
+  port: 1234
+spring:
+  data:
+    jpa:
+      repositories:
+        enabled: true
+  datasource:
+    password: 1316
+    url: jdbc:mysql://localhost:3306/spring-jenkins
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+  mvc:
+    pathmatch:
+      matching-strategy: ant-path-matcher
