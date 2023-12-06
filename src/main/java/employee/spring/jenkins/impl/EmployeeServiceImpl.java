@@ -35,10 +35,4 @@ public class EmployeeServiceImpl implements EmployeeService {
 		return repository.findAll();
 	}
 
-	public Employee getById(Long Id)
-	{
-
-		return repository.findById().get();
-	}
-
 }
